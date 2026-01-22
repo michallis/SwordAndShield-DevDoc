@@ -57,3 +57,19 @@ To commit local changes, after selecting the repository in Fork, click on the "C
 This command commits the local changes to the local repository. That does NOT mean that the changes are already pushed to the remote repository. To push the changes to the remote repository you need to:
 - check if you still have uncommitted changes.
 - push the changes to the remote repository
+
+## Git LFS
+
+Git Large File Storage (LFS) is a Git extension for versioning large files. It allows you to store large files in Git without slowing down your repository. Git LFS is used to store large files such as images, videos, and other media files.
+
+To enable Git LFS, you need to install the Git LFS client on your machine. You can download the Git LFS client from the official Git LFS website. Once you have installed the Git LFS client, you can enable Git LFS by running the following command in your terminal:
+
+```
+git lfs install
+```
+
+If you need to track a file, you can use the following command:
+
+```
+git lfs track "*.png"
+```
